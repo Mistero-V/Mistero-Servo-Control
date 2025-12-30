@@ -51,7 +51,7 @@ void setup() {
   digitalWrite(LED_PIN, HIGH); // LED OFF (active LOW)  // Want to on the onboard led just replace HIGH to LOW
 
   myServo.attach(servoPin, 500, 2500);
-  myServo.write(90); // Initial position of servo, You can chnage at you convenience 
+  myServo.write(90); // Initial position of servo, You can change at your convenience 
 
   WiFi.softAP(ssid, password);
   IPAddress IP = WiFi.softAPIP();
