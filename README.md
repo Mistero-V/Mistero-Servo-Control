@@ -6,9 +6,9 @@ Wifi-NAME - Mistero-Servo
 # Search On Default Browser
 192.168.4.1
 # Connection
-Connect the PWM(orange wire) to D7 of esp8266
-Connect the red wire to Vin of esp8266 or external 5v power source
-Connect grey wire to gnd of esp8266
+Connect the PWM(orange wire) to D7 of esp8266_
+Connect the red wire to Vin of esp8266 or external 5v power source_
+Connect grey wire to gnd of esp8266_
 
 
 # Source-Code
