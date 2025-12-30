@@ -1,7 +1,7 @@
 # Mistero-Servo-Control
 Password for Wifi - 1803@###
 
-Wifi-NAME - Mistero-Servo
+Wifi-Name - Mistero-Servo
 # Preference-Url
 ```http://arduino.esp8266.com/stable/package_esp8266com_index.json```
 # Search On Default Browser
