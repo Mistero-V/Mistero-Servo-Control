@@ -1,14 +1,18 @@
 # Mistero-Servo-Control
 Password for Wifi - 1803@###
+
 Wifi-NAME - Mistero-Servo
 # Preference-Url
 ```http://arduino.esp8266.com/stable/package_esp8266com_index.json```
 # Search On Default Browser
 192.168.4.1
 # Connection
-Connect the PWM(orange wire) to D7 of esp8266_
-Connect the red wire to Vin of esp8266 or external 5v power source_
-Connect grey wire to gnd of esp8266_
+Connect the Servo-PWM(orange wire) to D7 of esp8266
+
+Connect the  Servo red wire to Vin of esp8266 or external 5v power source
+
+Connect Servo grey wire to gnd of esp8266
+
 
 
 # Source-Code
@@ -40,8 +44,8 @@ void handleRoot() {
 </head>
 <body>
   <h2>Servo Control</h2>
-  <button onclick="fetch('/set?pos=115'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">Off</button>   //Change the degree 115 to your convenience automatically it comes to 90 degree after turning on off the switch 
-  <button onclick="fetch('/set?pos=65'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">ON</button>    // Change the degree 65 to your convenience automatically it comes to 90 degree after turning on off the switch
+  <button onclick="fetch('/set?pos=115'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">Off</button>   // Change the degree 115 to your convenience automatically it comes to 90 degree after turning on off the switch 
+  <button onclick="fetch('/set?pos=65'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">ON</button>    //  Change the degree 65 to your convenience automatically it comes to 90 degree after turning on off the switch -->
 </body>
 </html>
 )rawliteral";
