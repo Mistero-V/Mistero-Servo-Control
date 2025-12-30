@@ -1,13 +1,19 @@
 # Mistero-Servo-Control
 Password for Wifi - 1803@###
 Wifi-NAME - Mistero-Servo
-Preference URL - ```http://arduino.esp8266.com/stable/package_esp8266com_index.json```
-Search-for-web-page - 192.168.4.1
+# Preference-Url
+```http://arduino.esp8266.com/stable/package_esp8266com_index.json```
+# Search On Default Browser
+192.168.4.1
+# Connection
 Connect the PWM(orange wire) to D7 of esp8266
+Connect the red wire to Vin of esp8266 or external 5v power source
+Connect grey wire to gnd of esp8266
+
 
 # Source-Code
 ```ino
- #include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
