@@ -3,7 +3,7 @@
 #include <Servo.h>
 
 const char* ssid = "Mistero-Servo"; // You can change your wifi-name
-const char* password = "1803@###"; // You can change your password
+const char* password = "MisteroV"; // You can change your password
 Servo myServo;
 
 ESP8266WebServer server(80);
