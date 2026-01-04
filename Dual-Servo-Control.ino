@@ -57,16 +57,14 @@ void handleRoot() {
 
     <h2>Welcome</h2>
 
-    <!-- Mistero -->
     <div class="box">
-        <h3>Light Control</h3>
+        <h3>Mistero</h3>
         <button onclick="moveServo('/set', 120)">120°</button> // Second Servo
         <button onclick="moveServo('/set2', 60)">60°</button> // First Servo
     </div>
 
-    <!-- Mistero -->
     <div class="box">
-        <h3>Fan Control</h3>
+        <h3>Mistero</h3>
         <button onclick="moveServo('/set', 60)">60°</button> // Second Servo
         <button onclick="moveServo('/set2', 120)">120°</button> // First Servo
     </div>
