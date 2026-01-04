@@ -55,20 +55,20 @@ void handleRoot() {
 
 <body>
 
-    <h2>Hello, Buddy</h2>
+    <h2>Welcome</h2>
 
-    <!-- LIGHT CONTROL -->
+    <!-- Mistero -->
     <div class="box">
         <h3>Light Control</h3>
-        <button onclick="moveServo('/set', 142)">Light ON</button>
-        <button onclick="moveServo('/set2', 45)">Light OFF</button>
+        <button onclick="moveServo('/set', 120)">Light ON</button> // Second Servo
+        <button onclick="moveServo('/set2', 45)">Light OFF</button> // First Servo
     </div>
 
-    <!-- FAN CONTROL -->
+    <!-- Mistero -->
     <div class="box">
         <h3>Fan Control</h3>
-        <button onclick="moveServo('/set', 43)">Fan ON</button>
-        <button onclick="moveServo('/set2', 132)">Fan OFF</button>
+        <button onclick="moveServo('/set', 60)"></button> // Second Servo
+        <button onclick="moveServo('/set2', 120)">Fan OFF</button> // First Servo
     </div>
 
     <script>
