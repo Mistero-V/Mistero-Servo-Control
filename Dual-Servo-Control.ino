@@ -60,15 +60,15 @@ void handleRoot() {
     <!-- Mistero -->
     <div class="box">
         <h3>Light Control</h3>
-        <button onclick="moveServo('/set', 120)">Light ON</button> // Second Servo
-        <button onclick="moveServo('/set2', 45)">Light OFF</button> // First Servo
+        <button onclick="moveServo('/set', 120)">120°</button> // Second Servo
+        <button onclick="moveServo('/set2', 60)">60°</button> // First Servo
     </div>
 
     <!-- Mistero -->
     <div class="box">
         <h3>Fan Control</h3>
-        <button onclick="moveServo('/set', 60)"></button> // Second Servo
-        <button onclick="moveServo('/set2', 120)">Fan OFF</button> // First Servo
+        <button onclick="moveServo('/set', 60)">60°</button> // Second Servo
+        <button onclick="moveServo('/set2', 120)">120°</button> // First Servo
     </div>
 
     <script>
