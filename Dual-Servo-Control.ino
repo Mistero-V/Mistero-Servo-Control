@@ -59,14 +59,14 @@ void handleRoot() {
 
     <div class="box">
         <h3>Mistero</h3>
-        <button onclick="moveServo('/set', 120)">120°</button> // Second Servo
-        <button onclick="moveServo('/set2', 60)">60°</button> // First Servo
+        <button onclick="moveServo('/set', 120)">120°(Second servo)</button> 
+        <button onclick="moveServo('/set2', 60)">60°(First servo)</button> 
     </div>
 
     <div class="box">
         <h3>Mistero</h3>
-        <button onclick="moveServo('/set', 60)">60°</button> // Second Servo
-        <button onclick="moveServo('/set2', 120)">120°</button> // First Servo
+        <button onclick="moveServo('/set', 60)">60°(Second servo)</button> 
+        <button onclick="moveServo('/set2', 120)">120°(First servo)</button>
     </div>
 
     <script>
