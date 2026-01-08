@@ -1,4 +1,4 @@
-# Mistero-Servo-Control
+# Mistero-Servo-Control-ESP8266
 Password for Wifi - MisteroV
 
 Wifi-Name - Mistero-Servo
