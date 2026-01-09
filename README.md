@@ -46,8 +46,10 @@ void handleRoot() {
 </head>
 <body>
   <h2>Servo Control</h2>
-  <button onclick="fetch('/set?pos=120'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">120°</button>   // Change the degree 120 to your convenience automatically it comes to 90 degree after turning on 120° 
-  <button onclick="fetch('/set?pos=60'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">60°</button>    //  Change the degree 60 to your convenience automatically it comes to 90 degree after turning on 60°  -->
+  <button onclick="fetch('/set?pos=120'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">120°</button>    
+  <button onclick="fetch('/set?pos=60'); setTimeout(() => { fetch('/set?pos=90'); }, 400);">60°</button>  
+  <h5>Note: It auomatically comes to 90°, You can change the code as you need.</h5>
+  <h5>This code is designed for switch on off function. </h5>
 </body>
 </html>
 )rawliteral";
