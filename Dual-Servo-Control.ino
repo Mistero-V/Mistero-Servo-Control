@@ -2,7 +2,7 @@
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
-const char* ssid = "Mistero-Dual-Servo";
+const char* ssid = "Mistero-Dual-Servos";
 const char* password = "MisteroV2";
 
 ESP8266WebServer server(80);
