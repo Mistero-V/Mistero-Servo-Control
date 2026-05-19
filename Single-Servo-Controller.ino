@@ -48,7 +48,7 @@ void handleSet() {
 void setup() {
   Serial.begin(115200);
   pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, HIGH); // LED OFF (active LOW)  // Want to on the onboard led just replace HIGH to LOW
+  digitalWrite(LED_PIN, HIGH); // LED OFF (active LOW)  // Want to ON the onboard led just replace HIGH to LOW
 
   myServo.attach(servoPin, 500, 2500);
   myServo.write(90); // Initial position of servo, You can change at your convenience 
